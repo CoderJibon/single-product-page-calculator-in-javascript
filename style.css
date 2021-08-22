@@ -1,0 +1,63 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.apple-image img {
+    max-width: 500px;
+}
+.apple-button button.active {
+    background-color: #000;
+    border-color: #000;
+    color: #fff;
+}
+.apple-chip {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.apple-content h1 {
+    color: #1e272e;
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+.apple-content p {
+    margin-top: 20px;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.apple-button button:hover {
+    background-color: #1e272e;
+    color: #fff;
+}
+
+.apple-button button {
+    padding: 10px;
+    border: 1px solid #1e272e;
+}
+
+.apple-cart hr {
+    width: 400px;
+}
+
+.apple-cart .last-child {
+    border: none;
+    border: 2px solid #1e272e;
+}
+
+.apple-cart div h4 {
+    display: inline-block;
+    padding-right: 40px;
+    width: 250px;
+    font-size: 20px;
+}
+
+.promo-code h4 {
+    font-size: 20px;
+}
